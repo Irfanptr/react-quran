@@ -1,0 +1,58 @@
+.App {
+  background-color: white;
+}
+
+.container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer; /* Menjadikan tampilan kursor berubah saat mengarah ke nama surah */
+}
+
+.surah-number {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.surah-name {
+  color: #007bff; /* Blue color for the surah name */
+}
+
+/* Styling untuk tampilan surah yang dipilih */
+.surah-text {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.surah-text h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.surah-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
